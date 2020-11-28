@@ -1,0 +1,80 @@
+---
+title       : Developing data products
+subtitle    : shinyapp
+author      : thrinesh duvvuru
+job         : internet
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+## Overview
+<div class="black">
+Developing Data Products course - Week 4 Project Deliverable 
+</div>
+
+---
+
+## Application Data
+The application uses data from:
+
+<div class="blue2">
+
+- Motor Trend Car Road Tests (mtcars) dataset
+
+- Data entered by the user to identify their car requirements
+</div>
+
+---
+
+## Application Functionality
+
+The application uses multiple forms of input (checkboxes, slider Inputs) to assist in determining the best car to meet your requirements.
+
+<div class="blue2">
+Use the left side panel to select your requirements:
+
+- Type of Transmission
+
+- Number of Cylinders
+
+- Miles Per Gallon (Range)
+
+- Horsepower (Range)
+
+- Disposition (Range)
+</div>
+
+<div class="black">
+Select the "Submit Your Requirements" button
+</div>
+
+---
+## Application Results
+<div class="blue2">
+After the "Submit Your Requirements" button has been selected
+
+- The left side panel continues to display your requirements
+
+- The main right side panel display the results of your car search based upon requirements entered
+</div>
+
+<div class="black">
+The user can continue to 
+
+- Update and submit the requirements on the left side panel
+
+- Review the results on the main panel 
+
+Until they are satisfied with the car(s) that meet their needs 
+</div>
+
+---
+
+## THANK YOU
+
+---
+
+
